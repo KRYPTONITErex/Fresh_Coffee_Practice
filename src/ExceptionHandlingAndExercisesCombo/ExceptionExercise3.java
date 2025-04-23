@@ -1,4 +1,4 @@
-package FreshCoffee_Practice2;
+package ExceptionHandlingAndExercisesCombo;
 
 public class ExceptionExercise3 {
 

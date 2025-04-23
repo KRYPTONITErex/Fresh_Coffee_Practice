@@ -30,6 +30,10 @@ public class C4CustomMapStuAndGrades {
         studentGrades.get(101).setGrade("D");
         System.out.println("\nStudent's ID 101 grade A-->D : "+studentGrades.get(101).getGrade());
 
+        for(Map.Entry<Integer, C4Student> studentGrade : studentGrades.entrySet()){
+            System.out.println(studentGrade.getValue().getName() + "'s grade: " + studentGrade.getValue().getGrade());
+        }
+
     }
 
 }

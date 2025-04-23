@@ -17,8 +17,8 @@ public class C1RmDuplicateFrmList {
 
         System.out.println("With LinkedHashSet");
 
-        Set<Integer> HNumbers = new HashSet<>();
-        HNumbers.addAll(numbers);
+        Set<Integer> HNumbers = new HashSet<>(numbers);
+//        HNumbers.addAll(numbers);
         System.out.println(HNumbers);
         System.out.println(HNumbers.size());
 

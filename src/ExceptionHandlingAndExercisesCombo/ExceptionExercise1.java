@@ -1,6 +1,4 @@
-package FreshCoffee_Practice2;
-
-import EmployeeManagement.Person;
+package ExceptionHandlingAndExercisesCombo;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

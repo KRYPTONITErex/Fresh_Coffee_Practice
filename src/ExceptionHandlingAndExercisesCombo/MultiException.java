@@ -1,4 +1,4 @@
-package FreshCoffee_Practice2;
+package ExceptionHandlingAndExercisesCombo;
 
 import java.io.File;
 import java.io.FileNotFoundException;
